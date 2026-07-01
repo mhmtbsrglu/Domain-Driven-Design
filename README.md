@@ -280,3 +280,4 @@ Bir nüans var: takım Big Picture seviyesinde domain hakkında kapsamlı bir an
 - Aynı Aggregate diyagramda farklı komutlarla birden çok kez görünebilir, bu normal  Aggregate'in birden fazla davranışı (create, update, cancel vb.) olduğunu gösterir.
 - Policy'ler sadece event'lerle değil bazen bir aktörün manuel kararıyla da (örn. çalışanın şüpheli işlemi onaylaması/reddetmesi) tetiklenebilir; yani Event Storming tamamen otomatik süreçlerle sınırlı değil.
 - Design Level "Software Design" aşamasına işaret eder ve doğrudan Tactical Pattern'lerle kesişir  Event Storming sadece bir analiz aracı değil, tasarım sürecine de rehberlik edebilir.
+
