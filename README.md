@@ -1,5 +1,7 @@
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/5dca15b9-7495-4dca-8b54-8f9fbd40ee90" />
 
+👉 [React Örneğine Tıkla Git](#react-tech-stack)
+
 # DDD (Domain-Driven Design) Nedir ve Core Prensipleri Nelerdir?
 
 DDD, karmaşık yazılım sistemlerini yönetmek için ortaya çıkmış bir mimari metodoloji. Temelde yaptığı şey şu: teknik tarafta yazılan kodu, iş tarafının (business) kullandığı ortak dille (ubiquitous language) uyumlu hale getirmek. Günümüzde genellikle Event-Driven Architecture ile birlikte anılıyor, mikroservis dünyasında sık karşımıza çıkıyor. Temel motivasyon, devasa ve tek parça bir veri şeması yerine net sınırlar çizip karmaşıklığı izole etmek.
@@ -281,3 +283,31 @@ Bir nüans var: takım Big Picture seviyesinde domain hakkında kapsamlı bir an
 - Policy'ler sadece event'lerle değil bazen bir aktörün manuel kararıyla da (örn. çalışanın şüpheli işlemi onaylaması/reddetmesi) tetiklenebilir; yani Event Storming tamamen otomatik süreçlerle sınırlı değil.
 - Design Level "Software Design" aşamasına işaret eder ve doğrudan Tactical Pattern'lerle kesişir  Event Storming sadece bir analiz aracı değil, tasarım sürecine de rehberlik edebilir.
 
+
+
+
+# React.js ve Domain-Driven-Design (Enterprise Level - Senior)
+Bu proje; kurumsal ölçekte (enterprise-level), sürdürülebilir ve test edilebilir bir front-end mimarisinin React.js ekosisteminde nasıl uygulanacağını gösteren kapsamlı bir X.com (Twitter) klonudur.
+Geliştirme sürecinde modern front-end pratikleri, güncel teknolojiler ve en önemlisi Domain-Driven Design (DDD) prensipleri temel alınmıştır. Karmaşık state yönetimleri, iş mantığı (business logic) ayrımı ve modüler bileşen yapıları, senior seviyede bir mimari yaklaşımla ele alınmıştır. Sektördeki en güncel teknoloji yığınını (stack) ve kurumsal yazılım mimarilerini bir arada sunan bu çalışmanın, modern front-end mimarilerine ilgi duyan tüm geliştiricilere faydalı olmasını dilerim.
+
+👉 [React Projesine Tıkla Git](#react-tech-stack)
+
+<p align="left" style="display: flex; gap: 10px; flex-wrap: wrap; align-items: center; justify-content: center;">
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/React-23272F?style=for-the-badge&logo=react&logoColor=%2300D8FF" alt="React" />
+  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
+  <img src="https://img.shields.io/badge/Domain--Driven%20Design-7C3AED?style=for-the-badge&logo=googlearchitecturedashboard&logoColor=white" alt="DDD" />
+  <img src="https://img.shields.io/badge/Redux%20Toolkit-764ABC?style=for-the-badge&logo=redux&logoColor=white" alt="Redux Toolkit" />
+  <img src="https://img.shields.io/badge/TanStack%20Query-FF4154?style=for-the-badge&logo=reactquery&logoColor=white" alt="TanStack Query" />
+  <img src="https://img.shields.io/badge/React%20Router-F44250?style=for-the-badge&logo=reactrouter&logoColor=white" alt="React Router" />
+  <img src="https://img.shields.io/badge/React%20Hook%20Form-EC5990?style=for-the-badge&logo=reacthookform&logoColor=white" alt="React Hook Form" />
+  <img src="https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind CSS" />
+  <img src="https://img.shields.io/badge/shadcn%2Fui-000000?style=for-the-badge&logo=shadcnui&logoColor=white" alt="shadcn/ui" />
+  <img src="https://img.shields.io/badge/Radix%20UI-161618?style=for-the-badge&logo=radixui&logoColor=white" alt="Radix UI" />
+  <img src="https://img.shields.io/badge/Mock%20Service%20Worker-FF6A5A?style=for-the-badge&logo=mockserviceworker&logoColor=white" alt="Mock Service Worker" />
+</p>
+
+## Bilinmesi Gerekenler
+React projesinin mantığını anlamanız açısından bir takım bilinmesi gereken bilgiler bulunmaktadır. Bu bilgiler sırasıyla şunlardır:
+- Event Bus
+- Güncellenecek...
