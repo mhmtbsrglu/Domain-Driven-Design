@@ -305,9 +305,11 @@ Geliştirme sürecinde modern front-end pratikleri, güncel teknolojiler ve en �
   <img src="https://img.shields.io/badge/shadcn%2Fui-000000?style=for-the-badge&logo=shadcnui&logoColor=white" alt="shadcn/ui" />
   <img src="https://img.shields.io/badge/Radix%20UI-161618?style=for-the-badge&logo=radixui&logoColor=white" alt="Radix UI" />
   <img src="https://img.shields.io/badge/Mock%20Service%20Worker-FF6A5A?style=for-the-badge&logo=mockserviceworker&logoColor=white" alt="Mock Service Worker" />
+    <img src="https://img.shields.io/badge/RxJS-B3104F?style=for-the-badge&logo=reactivex&logoColor=white" alt="RxJS" />
 </p>
 
 ## Bilinmesi Gerekenler
 React projesinin mantığını anlamanız açısından bir takım bilinmesi gereken bilgiler bulunmaktadır. Bu bilgiler sırasıyla şunlardır:
-- Event Bus
+- Event Bus: Güncellenecek...
+- Reactive Programming: Güncellenecek...
 - Güncellenecek...
